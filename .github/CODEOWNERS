@@ -1,0 +1,36 @@
+# CODEOWNERS file for tracking-framework-611
+# Global owners - will be requested for all PRs
+* @Armor-test/team-research @Armor-test/grp-integration @Armor-test/squad-research
+
+# Directory ownership
+/web/ @Armor-test/squad-qa @Armor-test/grp-ui @Armor-test/dept-security
+/tests/ @Armor-test/squad-qa @Armor-test/squad-cache
+/docs/ @Armor-test/unit-devops @Armor-test/dept-security @Armor-test/grp-storage
+/shared/ @Armor-test/squad-product @Armor-test/squad-reporting @Armor-test/squad-cache
+/services/ @Armor-test/dept-release @Armor-test/team-governance @Armor-test/grp-api
+/common/ @Armor-test/squad-research @Armor-test/squad-cloud
+/plugins/ @Armor-test/squad-performance @Armor-test/team-reporting
+/pages/ @Armor-test/dept-identity @Armor-test/squad-performance @Armor-test/grp-payments
+/api/ @Armor-test/dept-logging @Armor-test/dept-reporting
+/lib/ @Armor-test/squad-payments @Armor-test/team-core
+/controllers/ @Armor-test/team-reporting @Armor-test/dept-billing @Armor-test/squad-reporting
+/dist/ @Armor-test/team-frontend @Armor-test/unit-governance
+
+# File type ownership
+*.ini @Armor-test/squad-qa @Armor-test/dept-notifications
+*.toml @Armor-test/squad-frontend @Armor-test/squad-ml @Armor-test/dept-ui
+*.php @Armor-test/grp-ui @Armor-test/squad-research @Armor-test/dept-reliability
+*.swift @Armor-test/team-reporting @Armor-test/unit-devops
+*.js @Armor-test/squad-ux @Armor-test/dept-data
+*.gradle @Armor-test/dept-data @Armor-test/dept-logging @Armor-test/grp-payments
+*.py @Armor-test/dept-ui @Armor-test/squad-qa
+*.xml @Armor-test/team-notifications @Armor-test/squad-ml
+*.cpp @Armor-test/team-governance @Armor-test/dept-data @Armor-test/dept-release
+*.tf @Armor-test/grp-payments @Armor-test/squad-reporting
+
+# Security and special files
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+package.json @Armor-test/dependency-team @Armor-test/security
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Dockerfile @Armor-test/devops @Armor-test/infra
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
